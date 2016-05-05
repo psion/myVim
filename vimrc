@@ -1,4 +1,5 @@
 execute pathogen#infect()
+call pathogen#helptags()
 syntax on
 filetype plugin indent on
 "set tabstop=4
@@ -11,5 +12,9 @@ set mouse=a
 set number
 
 autocmd FileType php autocmd BufWritePre * :%s/\s\+$//e
+
+set guioptions-=T
+set guioptions-=r
+set guioptions-=L
 
 "colorscheme revelation 
