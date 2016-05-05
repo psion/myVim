@@ -1,0 +1,27 @@
+[submodule "bundle/colour-schemes"]
+	path = bundle/colour-schemes
+	url = https://github.com/daylerees/colour-schemes.git
+[submodule "bundle/Dockerfile.vim"]
+	path = bundle/Dockerfile.vim
+	url = https://github.com/ekalinin/Dockerfile.vim.git
+[submodule "bundle/php-getter-setter.vim"]
+	path = bundle/php-getter-setter.vim
+	url = https://github.com/docteurklein/php-getter-setter.vim.git
+[submodule "bundle/unite.vim"]
+	path = bundle/unite.vim
+	url = https://github.com/Shougo/unite.vim.git
+[submodule "bundle/php.vim"]
+	path = bundle/php.vim
+	url = https://github.com/StanAngeloff/php.vim.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vim-sensible"]
+	path = bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
+[submodule "bundle/vimproc.vim"]
+	path = bundle/vimproc.vim
+	url = https://github.com/Shougo/vimproc.vim.git
+[submodule "bundle/vim-go"]
+	path = bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
