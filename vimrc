@@ -17,4 +17,7 @@ set guioptions-=T
 set guioptions-=r
 set guioptions-=L
 
+set t_Co=256
+
+
 "colorscheme revelation 

@@ -55,5 +55,5 @@ set window=69
 set lines=999
 set columns=999
 
-colorscheme zacks-contrast
+colorscheme slate
 " vim: set ft=vim :
