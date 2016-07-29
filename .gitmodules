@@ -4,9 +4,6 @@
 [submodule "bundle/Dockerfile.vim"]
 	path = bundle/Dockerfile.vim
 	url = https://github.com/ekalinin/Dockerfile.vim.git
-[submodule "bundle/php-getter-setter.vim"]
-	path = bundle/php-getter-setter.vim
-	url = https://github.com/docteurklein/php-getter-setter.vim.git
 [submodule "bundle/unite.vim"]
 	path = bundle/unite.vim
 	url = https://github.com/Shougo/unite.vim.git
