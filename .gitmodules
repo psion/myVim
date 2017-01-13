@@ -34,3 +34,6 @@
 [submodule "bundle/vim-sass-lint"]
 	path = bundle/vim-sass-lint
 	url = https://github.com/gcorne/vim-sass-lint.git
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline
