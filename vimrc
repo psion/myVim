@@ -29,7 +29,7 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-colorscheme cleanphp
+colorscheme wombat256mod
 
 " Enable the list of buffers
 let g:airline#extensions#tabline#enabled = 1
