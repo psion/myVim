@@ -43,3 +43,9 @@
 [submodule "bundle/vim-lua-ftplugin"]
 	path = bundle/vim-lua-ftplugin
 	url = https://github.com/xolox/vim-lua-ftplugin.git
+[submodule "bundle/vim-javascript"]
+	path = bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "bundle/vim-jsx"]
+	path = bundle/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git
