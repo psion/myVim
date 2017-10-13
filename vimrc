@@ -57,3 +57,23 @@ nmap <leader>bq :bp <BAR> bd #<CR>
 
 " " Show all open buffers and their status
 nmap <leader>bl :ls<CR>
+
+" " PHP use statements funtimes
+function! IPhpInsertUse()
+        call PhpInsertUse()
+        call feedkeys('a',  'n')
+endfunction
+autocmd FileType php inoremap <Leader>u <Esc>:call IPhpInsertUse()<CR>
+autocmd FileType php noremap <Leader>u :call PhpInsertUse()<CR>
+
+function! IPhpExpandClass()
+        call PhpExpandClass()
+        call feedkeys('a', 'n')
+endfunction
+autocmd FileType php inoremap <Leader>e <Esc>:call IPhpExpandClass()<CR>
+autocmd FileType php noremap <Leader>e :call PhpExpandClass()<CR>
+
+autocmd FileType php inoremap <Leader>s <Esc>:call PhpSortUse()<CR>
+autocmd FileType php noremap <Leader>s :call PhpSortUse()<CR>
+
+let g:php_namespace_sort_after_insert = 1
