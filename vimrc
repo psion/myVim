@@ -29,8 +29,6 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-colorscheme wombat256mod
-
 " Enable the list of buffers
 let g:airline#extensions#tabline#enabled = 1
 "
@@ -57,3 +55,16 @@ nmap <leader>bq :bp <BAR> bd #<CR>
 
 " " Show all open buffers and their status
 nmap <leader>bl :ls<CR>
+
+""Arduino configs
+function! MyStatusLine()
+  let port = arduino#GetPort()
+  let line = '%f [' . g:arduino_board . '] [' . g:arduino_programmer . ']'
+  if !empty(port)
+    let line = line . ' (' . port . ':' . g:arduino_serial_baud . ')'
+  endif
+  return line
+endfunction
+setl statusline=%!MyStatusLine()
+
+colorscheme xoria256
