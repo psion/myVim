@@ -61,6 +61,17 @@ nmap <leader>bq :bp <BAR> bd #<CR>
 " " Show all open buffers and their status
 nmap <leader>bl :ls<CR>
 
+""Arduino configs
+function! MyStatusLine()
+  let port = arduino#GetPort()
+  let line = '%f [' . g:arduino_board . '] [' . g:arduino_programmer . ']'
+  if !empty(port)
+    let line = line . ' (' . port . ':' . g:arduino_serial_baud . ')'
+  endif
+  return line
+endfunction
+setl statusline=%!MyStatusLine()
+
 " " PHP use statements funtimes
 function! IPhpInsertUse()
         call PhpInsertUse()
@@ -80,8 +91,8 @@ autocmd FileType php inoremap <Leader>s <Esc>:call PhpSortUse()<CR>
 autocmd FileType php noremap <Leader>s :call PhpSortUse()<CR>
 
 let g:php_namespace_sort_after_insert = 1
+<<<<<<< HEAD
 
 autocmd vimenter * NERDTree
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-

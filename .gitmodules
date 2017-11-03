@@ -1,9 +1,6 @@
 [submodule "bundle/colour-schemes"]
 	path = bundle/colour-schemes
 	url = https://github.com/daylerees/colour-schemes.git
-[submodule "bundle/Dockerfile.vim"]
-	path = bundle/Dockerfile.vim
-	url = https://github.com/ekalinin/Dockerfile.vim.git
 [submodule "bundle/unite.vim"]
 	path = bundle/unite.vim
 	url = https://github.com/Shougo/unite.vim.git
@@ -49,6 +46,21 @@
 [submodule "bundle/vim-jsx"]
 	path = bundle/vim-jsx
 	url = https://github.com/mxw/vim-jsx.git
+[submodule "vim-arduino-syntax"]
+	path = vim-arduino-syntax
+	url = https://github.com/sudar/vim-arduino-syntax
+[submodule "bundle/vim-arduino-syntax"]
+	path = bundle/vim-arduino-syntax
+	url = https://github.com/sudar/vim-arduino-syntax
+[submodule "bundle/vim-arduino"]
+	path = bundle/vim-arduino
+	url = https://github.com/stevearc/vim-arduino
+[submodule "bundle/vim-styled-components"]
+	path = bundle/vim-styled-components
+	url = https://github.com/fleischie/vim-styled-components.git
+[submodule "bundle/vim-css3-syntax"]
+	path = bundle/vim-css3-syntax
+	url = https://github.com/hail2u/vim-css3-syntax.git
 [submodule "bundle/vim-php-namespace"]
 	path = bundle/vim-php-namespace
 	url = git://github.com/arnaud-lb/vim-php-namespace.git
