@@ -29,6 +29,9 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': [] }
+nnoremap <C-w>E :SyntasticCheck<CR> :SyntasticToggleMode<CR>
+
 colorscheme wombat256mod
 
 " Enable the list of buffers
@@ -77,3 +80,8 @@ autocmd FileType php inoremap <Leader>s <Esc>:call PhpSortUse()<CR>
 autocmd FileType php noremap <Leader>s :call PhpSortUse()<CR>
 
 let g:php_namespace_sort_after_insert = 1
+
+autocmd vimenter * NERDTree
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+

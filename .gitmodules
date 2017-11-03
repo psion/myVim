@@ -52,3 +52,9 @@
 [submodule "bundle/vim-php-namespace"]
 	path = bundle/vim-php-namespace
 	url = git://github.com/arnaud-lb/vim-php-namespace.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/nerdtree-git-plugin"]
+	path = bundle/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
