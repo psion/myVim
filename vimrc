@@ -91,7 +91,6 @@ autocmd FileType php inoremap <Leader>s <Esc>:call PhpSortUse()<CR>
 autocmd FileType php noremap <Leader>s :call PhpSortUse()<CR>
 
 let g:php_namespace_sort_after_insert = 1
-<<<<<<< HEAD
 
 autocmd vimenter * NERDTree
 autocmd StdinReadPre * let s:std_in=1
