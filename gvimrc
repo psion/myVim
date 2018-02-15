@@ -55,12 +55,12 @@ set window=69
 set lines=999
 set columns=999
 
-highlight Cursor guifg=white guibg=black
-highlight iCursor guifg=white guibg=steelblue
+highlight Cursor guifg=white guibg=white
+highlight iCursor guifg=white guibg=white
 set guicursor=n-v-c:block-Cursor
 set guicursor+=i:ver100-iCursor
 set guicursor+=n-v-c:blinkon0
 set guicursor+=i:blinkwait10
 
-colorscheme molokai
+colorscheme wombat256mod
 " vim: set ft=vim :
