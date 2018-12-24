@@ -71,5 +71,5 @@
 	path = bundle/vim-blade
 	url = git://github.com/jwalton512/vim-blade.git
 [submodule "vim-styled-components"]
-	path = bundle/vim-styled-components
-        url = git@github.com:styled-components/vim-styled-components.git
+	path = vim-styled-components
+	url = https://github.com/styled-components/vim-styled-components/
