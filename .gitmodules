@@ -55,9 +55,6 @@
 [submodule "bundle/vim-arduino"]
 	path = bundle/vim-arduino
 	url = https://github.com/stevearc/vim-arduino
-[submodule "bundle/vim-styled-components"]
-	path = bundle/vim-styled-components
-	url = https://github.com/fleischie/vim-styled-components.git
 [submodule "bundle/vim-css3-syntax"]
 	path = bundle/vim-css3-syntax
 	url = https://github.com/hail2u/vim-css3-syntax.git
@@ -73,3 +70,6 @@
 [submodule "bundle/vim-blade"]
 	path = bundle/vim-blade
 	url = git://github.com/jwalton512/vim-blade.git
+[submodule "vim-styled-components"]
+	path = bundle/vim-styled-components
+        url = git@github.com:styled-components/vim-styled-components.git
