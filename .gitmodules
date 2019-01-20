@@ -70,6 +70,12 @@
 [submodule "bundle/vim-blade"]
 	path = bundle/vim-blade
 	url = git://github.com/jwalton512/vim-blade.git
-[submodule "vim-styled-components"]
-	path = vim-styled-components
-	url = https://github.com/styled-components/vim-styled-components/
+[submodule "bundle/auto-pairs"]
+	path = bundle/auto-pairs
+	url = git://github.com/jiangmiao/auto-pairs.git
+[submodule "bundle/vim-styled-components"]
+	path = bundle/vim-styled-components
+	url = https://github.com/styled-components/vim-styled-components
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/tpope/vim-surround
