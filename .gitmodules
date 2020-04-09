@@ -79,3 +79,6 @@
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = https://github.com/tpope/vim-surround
+[submodule "bundle/vim-fountain"]
+	path = bundle/vim-fountain
+	url = https://github.com/kblin/vim-fountain.git
