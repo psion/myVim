@@ -1,10 +1,3 @@
-" package main
-"
-" import "fmt"
-"
-" func main() {
-" 	fmt.Println("vim-go")
-" }
 execute pathogen#infect()
 call pathogen#helptags()
 syntax on
@@ -103,3 +96,7 @@ let g:php_namespace_sort_after_insert = 1
 autocmd vimenter * NERDTree
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+"" These are the templates for writing in a TV show
+autocmd BufNewFile *.circle.md 0r ~/.vim/templates/ep0.circle.md
+autocmd BufNewFile *.ep.fountain 0r ~/.vim/templates/ep0.ep.fountain
