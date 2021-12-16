@@ -33,7 +33,8 @@ let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_
 let g:syntastic_css_checkers = ['csslint']
 nnoremap <C-w>E :SyntasticCheck<CR> :SyntasticToggleMode<CR>
 
-colorscheme candycode
+" colorscheme candycode
+colorscheme astroboy
 
 " Enable the list of buffers
 let g:airline#extensions#tabline#enabled = 1
