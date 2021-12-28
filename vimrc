@@ -101,3 +101,7 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 "" These are the templates for writing in a TV show
 autocmd BufNewFile *.circle.md 0r ~/.vim/templates/ep0.circle.md
 autocmd BufNewFile *.ep.fountain 0r ~/.vim/templates/ep0.ep.fountain
+
+"" I want my temp files somewhere else.  Me no likey.
+set backupdir=$TEMP
+set directory=$TEMP
