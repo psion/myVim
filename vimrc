@@ -24,17 +24,18 @@ set t_Co=256
 
 set statusline=%f\ %{fugitive#statusline()}\ %2*%m%*
 
-let g:syntastic_alwaysPopulate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+" let g:syntastic_alwaysPopulate_loc_list = 1
+" let g:syntastic_auto_loc_list = 1
+" let g:syntastic_check_on_open = 1
+" let g:syntastic_check_on_wq = 0
 
-let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': [] }
-let g:syntastic_css_checkers = ['csslint']
-nnoremap <C-w>E :SyntasticCheck<CR> :SyntasticToggleMode<CR>
+" let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': [] }
+" let g:syntastic_css_checkers = ['csslint']
+" nnoremap <C-w>E :SyntasticCheck<CR> :SyntasticToggleMode<CR>
 
 " colorscheme candycode
-colorscheme astroboy
+" colorscheme astroboy
+colorscheme dante
 
 " Enable the list of buffers
 let g:airline#extensions#tabline#enabled = 1
@@ -103,5 +104,5 @@ autocmd BufNewFile *.circle.md 0r ~/.vim/templates/ep0.circle.md
 autocmd BufNewFile *.ep.fountain 0r ~/.vim/templates/ep0.ep.fountain
 
 "" I want my temp files somewhere else.  Me no likey.
-set backupdir=$TEMP
-set directory=$TEMP
+" set backupdir=$TEMP
+" set directory=$TEMP
