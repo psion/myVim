@@ -35,9 +35,10 @@ set statusline=%f\ %{fugitive#statusline()}\ %2*%m%*
 
 " colorscheme candycode
 " colorscheme astroboy
-colorscheme dante
+" colorscheme dante
+colorscheme golden
 
-" Enable the list of buffers
+"" Enable the list of buffers
 let g:airline#extensions#tabline#enabled = 1
 "
 " " Show just the filename
