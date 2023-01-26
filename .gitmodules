@@ -87,4 +87,4 @@
 	url = https://github.com/xolox/vim-colorscheme-switcher
 [submodule "bundle/vim-php-cs-fixer"]
 	path = bundle/vim-php-cs-fixer
-	url = git@github.com:stephpy/vim-php-cs-fixer.git
+	url = https://github.com/stephpy/vim-php-cs-fixer.git
